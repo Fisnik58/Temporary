@@ -672,7 +672,7 @@ li p {
 
 @media only screen and (max-width: 1199px) {
   .collapse {
-    background-image: url(../public/Untitled\ design\ \(15\).png);
+    /* background-image: url(../public/Untitled\ design\ \(15\).png); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -682,10 +682,10 @@ li p {
     
     z-index: 100;
 
-   
+
   }
   .navbar{
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid purple; 
   }
 }
 
@@ -709,9 +709,7 @@ li p {
 
  
 .container-of-ElusionOp{
-  border-radius: 15px;
-  padding-bottom: 1.2%;
-  
+  border-radius: 15px;  
 }
 
 .container-of-play-to-earn{
@@ -724,6 +722,12 @@ li p {
 @media only screen and (min-width: 1200px) {
   .text-of-earn-m {
     padding-bottom: 4%;
+  }
+  .container-of-ElusionOp{
+    padding-bottom: 15px;
+  }
+  .row-of-elusion{
+    padding-bottom: 14%; 
   }
 }
 
@@ -839,7 +843,67 @@ li p {
   }
   
 }
-.row-of-elusion{
-  padding-bottom: 20%;
-  
+
+
+@media only screen and (max-width:400px) {
+  .container-of-ElusionOp{
+    
+    padding-bottom: 3%;
+  }
 }
+
+
+/* globals.css */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width:1199px) {
+  .nav-item-0{
+    animation: slideInLeft;
+    animation-duration: 1.5s; 
+  }
+  .nav-item-1{
+    animation: fadeInLeft;
+    animation-duration: 2s; 
+  }
+  .nav-item-2{
+    animation: fadeInLeft;
+    animation-duration: 2.5s; 
+  }
+  .nav-item-3{
+    animation: fadeInLeft;
+    animation-duration: 3s; 
+  }
+  .nav-item-4{  animation: fadeInLeft;
+    animation-duration: 3.5s; 
+  
+  }
+  .nav-item-5{
+    animation: fadeInLeft;
+    animation-duration: 4s; 
+  }
+  .nav-item-6{
+    animation: fadeInLeft;
+    animation-duration:4.5s; 
+    padding-bottom: 5%;
+  }
+   li{
+    margin-left :3%;
+    font-size: 25px;
+    
+   }
+   .nav-item-0{
+    margin-top: 0%;
+   }
+   .nav-item{
+    margin-top: 4%;
+   }
+}
+
